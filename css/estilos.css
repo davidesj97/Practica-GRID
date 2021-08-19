@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+.label {
+    color: #78808E;
+    font-size: 14px;
+    margin: 2px 0px 10px;
+}
+
+.input {
+    font-size: 14px;
+    margin-bottom: 2px;
+    border: 1px solid #78808E;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px 5px;
+}
+
 
 /* Banner */
 
@@ -110,21 +125,6 @@
     margin: 10px 0;
 }
 
-.login-form>label {
-    color: #78808E;
-    font-size: 14px;
-    margin: 5px 0px;
-}
-
-.login-form>input {
-    font-size: 14px;
-    margin-bottom: 5px;
-    border: 1px solid #78808E;
-    border-radius: 5px;
-    outline: none;
-    padding: 1px 5px;
-}
-
 .login-form button {
     background-color: #00953A;
     color: #fff;
@@ -176,4 +176,53 @@
     text-align: center;
     line-height: 35px;
     margin-top: 5px;
+}
+
+
+/* Registro */
+
+.register {
+    width: 39%;
+    height: 550px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #707070;
+}
+
+.register-form {
+    width: 70%;
+    height: 80%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form .checkbox {
+    color: #5B6670;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.register-form .checkbox input {
+    margin-right: 15px;
+}
+
+.register-form .checkbox span {
+    color: #00953A;
+}
+
+.register-form button {
+    background-color: #D1D1D1;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    width: 200px;
+    font-size: 18px;
+    padding: 9px 0;
+    cursor: pointer;
+}
+
+.register-form button:active {
+    border: 1px solid #000;
 }
